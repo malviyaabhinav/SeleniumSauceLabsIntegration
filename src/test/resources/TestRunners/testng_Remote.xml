@@ -1,14 +1,15 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
 
-<suite name="Regression_SauceLabs_HubSpot_TestSuite" verbose="1">
+<suite name="SauceLabs_TestSuite" verbose="1">
 
 	<!-- <listeners> <listener class-name="com.qa.listeners.ExtentReportListener" 
 		/> </listeners> -->
 
-	<test name="SauceLabs Test Cases">
+	<test name="UPC CH Step Plan Test Case">
 		<parameter name="executionMode" value="android" />
 		<classes>
-			<class name="com.qa.tests.LoginPageRemoteTest" />
+		<!-- 	<class name="com.qa.tests.LoginPageRemoteTest" />  -->
+			<class name="com.qa.tests.StepPlanTest" />
 		</classes>
 	</test>
 </suite>

@@ -1,70 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Regression_SauceLabs_HubSpot_TestSuite" duration-ms="176916" started-at="2020-05-09T16:57:14 CEST" finished-at="2020-05-09T17:00:10 CEST">
+  <suite name="SauceLabs_TestSuite" duration-ms="154479" started-at="2020-05-09T19:11:50 CEST" finished-at="2020-05-09T19:14:25 CEST">
     <groups>
     </groups>
-    <test name="SauceLabs Test Cases" duration-ms="176916" started-at="2020-05-09T16:57:14 CEST" finished-at="2020-05-09T17:00:10 CEST">
-      <class name="com.qa.tests.LoginPageRemoteTest">
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.qa.tests.LoginPageRemoteTest@223450ca]" name="setUp" is-config="true" duration-ms="32649" started-at="2020-05-09T16:57:14 CEST" finished-at="2020-05-09T16:57:46 CEST">
+    <test name="UPC CH Step Plan Test Case" duration-ms="154479" started-at="2020-05-09T19:11:50 CEST" finished-at="2020-05-09T19:14:25 CEST">
+      <class name="com.qa.tests.StepPlanTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.qa.tests.StepPlanTest@16e20c08]" name="setUp" is-config="true" duration-ms="59132" started-at="2020-05-09T19:11:50 CEST" finished-at="2020-05-09T19:12:50 CEST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[android]]>
+                <![CDATA[iOS]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="validateTitle()[pri:1, instance:com.qa.tests.LoginPageRemoteTest@223450ca]" name="validateTitle" duration-ms="17909" started-at="2020-05-09T16:57:46 CEST" finished-at="2020-05-09T16:58:04 CEST">
+        <test-method status="PASS" signature="validateTitle()[pri:1, instance:com.qa.tests.StepPlanTest@16e20c08]" name="validateTitle" duration-ms="1005" started-at="2020-05-09T19:12:50 CEST" finished-at="2020-05-09T19:12:51 CEST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateTitle -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.tests.LoginPageRemoteTest@223450ca]" name="tearDown" is-config="true" duration-ms="734" started-at="2020-05-09T16:58:04 CEST" finished-at="2020-05-09T16:58:05 CEST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.tests.StepPlanTest@16e20c08]" name="tearDown" is-config="true" duration-ms="894" started-at="2020-05-09T19:12:51 CEST" finished-at="2020-05-09T19:12:51 CEST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.qa.tests.LoginPageRemoteTest@223450ca]" name="setUp" is-config="true" duration-ms="38223" started-at="2020-05-09T16:58:05 CEST" finished-at="2020-05-09T16:58:43 CEST">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.qa.tests.StepPlanTest@16e20c08]" name="setUp" is-config="true" duration-ms="68980" started-at="2020-05-09T19:12:51 CEST" finished-at="2020-05-09T19:14:00 CEST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[android]]>
+                <![CDATA[iOS]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="validateSignUpLinkDisplayed()[pri:2, instance:com.qa.tests.LoginPageRemoteTest@223450ca]" name="validateSignUpLinkDisplayed" duration-ms="18659" started-at="2020-05-09T16:58:43 CEST" finished-at="2020-05-09T16:59:02 CEST">
+        <test-method status="PASS" signature="validateGuideLink()[pri:2, instance:com.qa.tests.StepPlanTest@16e20c08]" name="validateGuideLink" duration-ms="23375" started-at="2020-05-09T19:14:00 CEST" finished-at="2020-05-09T19:14:24 CEST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validateSignUpLinkDisplayed -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.tests.LoginPageRemoteTest@223450ca]" name="tearDown" is-config="true" duration-ms="763" started-at="2020-05-09T16:59:02 CEST" finished-at="2020-05-09T16:59:03 CEST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.qa.tests.LoginPageRemoteTest@223450ca]" name="setUp" is-config="true" duration-ms="37674" started-at="2020-05-09T16:59:03 CEST" finished-at="2020-05-09T16:59:40 CEST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[android]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="validateLogin()[pri:3, instance:com.qa.tests.LoginPageRemoteTest@223450ca]" name="validateLogin" duration-ms="29581" started-at="2020-05-09T16:59:40 CEST" finished-at="2020-05-09T17:00:10 CEST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateLogin -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.tests.LoginPageRemoteTest@223450ca]" name="tearDown" is-config="true" duration-ms="642" started-at="2020-05-09T17:00:10 CEST" finished-at="2020-05-09T17:00:10 CEST">
+        </test-method> <!-- validateGuideLink -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.tests.StepPlanTest@16e20c08]" name="tearDown" is-config="true" duration-ms="982" started-at="2020-05-09T19:14:24 CEST" finished-at="2020-05-09T19:14:25 CEST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.qa.tests.LoginPageRemoteTest -->
-    </test> <!-- SauceLabs Test Cases -->
-  </suite> <!-- Regression_SauceLabs_HubSpot_TestSuite -->
+      </class> <!-- com.qa.tests.StepPlanTest -->
+    </test> <!-- UPC CH Step Plan Test Case -->
+  </suite> <!-- SauceLabs_TestSuite -->
 </testng-results>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="99655" started-at="2020-05-09T11:49:37 CEST" finished-at="2020-05-09T11:51:17 CEST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="99655" started-at="2020-05-09T11:49:37 CEST" finished-at="2020-05-09T11:51:17 CEST">
+      <class name="com.qa.base.SauceLabSupport">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.qa.base.SauceLabSupport@b61c9c20]" name="openBrowser" duration-ms="99549" started-at="2020-05-09T11:49:37 CEST" finished-at="2020-05-09T11:51:17 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+      </class> <!-- com.qa.base.SauceLabSupport -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

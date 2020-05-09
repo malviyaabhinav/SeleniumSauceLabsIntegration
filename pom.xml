@@ -24,7 +24,7 @@
 				<version>3.0.0-M4</version>
 				<configuration>
 					<suiteXmlFiles>
-						<suiteXmlFile>\src\test\resources\TestRunners\testng_Remote.xml</suiteXmlFile>
+						<suiteXmlFile>src/test/resources/TestRunners/testng_Remote.xml</suiteXmlFile>
 					<!-- 	<suiteXmlFile>src/test/resources/testrunners/testng_regression.xml</suiteXmlFile> -->
 					</suiteXmlFiles>
 				</configuration>

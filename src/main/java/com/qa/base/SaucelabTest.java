@@ -14,7 +14,7 @@ import org.testng.Assert;
 import org.testng.TestNG;
 import org.testng.annotations.Test;
 
-public class SauceLabBasic {
+public class SaucelabTest {
 
 	private WebDriver driver;
 	static boolean result;

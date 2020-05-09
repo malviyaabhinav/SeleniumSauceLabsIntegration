@@ -13,7 +13,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class BasePage {
+public class BasePageLocal {
 
 	WebDriver driver;
 	Properties property;
@@ -25,7 +25,7 @@ public class BasePage {
 		property = new Properties();
 		try {
 			FileInputStream file = new FileInputStream(
-					"D:\\OneDrive - Infosys Limited\\Eclipse_Workspace\\SeleniumSaucelabsIntegration\\src\\main\\java\\com\\qa\\prop\\config.propertie");
+					"D:\\OneDrive - Infosys Limited\\Eclipse_Workspace\\SeleniumSaucelabsIntegration\\src\\main\\java\\com\\qa\\prop\\config.properties");
 			property.load(file);
 
 		} catch (FileNotFoundException e) {

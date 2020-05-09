@@ -92,6 +92,7 @@ public class SauceLabSupport {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
+		
 
 		if (result) {
 			((JavascriptExecutor) driver).executeScript("sauce:job-result=passed");

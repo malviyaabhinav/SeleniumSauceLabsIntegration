@@ -1,12 +1,12 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
 
-<suite name="Regression_HubSpot_TestSuite" verbose="1">
+<suite name="Regression_SauceLabs_HubSpot_TestSuite" verbose="1">
 
-<!-- 	<listeners>
-		<listener class-name="com.qa.listeners.ExtentReportListener" />
-	</listeners> -->
+	<!-- <listeners> <listener class-name="com.qa.listeners.ExtentReportListener" 
+		/> </listeners> -->
 
-	<test name="HubSpot_Regression_Test_Cases">
+	<test name="SauceLabs Test Cases">
+		<parameter name="executionMode" value="android" />
 		<classes>
 			<class name="com.qa.tests.LoginPageRemoteTest" />
 		</classes>

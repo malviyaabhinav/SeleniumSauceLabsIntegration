@@ -7,6 +7,7 @@ import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import com.qa.base.BasePageSauceLabs;
@@ -20,15 +21,28 @@ public class LoginPageRemoteTest {
 	Properties property;
 	HubSpotLoginPage loginPage;
 	
+	
+	
 	@BeforeMethod
-	public void setUp() throws MalformedURLException {
+	@Parameters("executionMode")
+	public void setUp(String executionMode) throws MalformedURLException {
 		basePage =new BasePageSauceLabs();
 		property =basePage.readSaucelabProperty();
-		driver =basePage.initiateRemoteDriverAndroid();
+		
+		if(executionMode.equalsIgnoreCase("android")) {
+			driver =basePage.initiateRemoteDriverAndroid();
+		}
+		else if(executionMode.equalsIgnoreCase("desktop")) {
+			driver = basePage.initiateRemoteDriverDesktop();
+		}
+		else if(executionMode.equalsIgnoreCase("iOS")){
+			driver = basePage.initiateRemoteDriveriOS();
+			
+		}
+	//	driver =basePage.initiateRemoteDriverAndroid();
 	//	driver = basePage.initiateRemoteDriverDesktop();
 	//	driver = basePage.initiateRemoteDriveriOS();
-		
-		loginPage =new HubSpotLoginPage(driver);	
+			loginPage =new HubSpotLoginPage(driver);	
 	}
 	
 	@Test(priority=1)
